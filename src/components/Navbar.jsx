@@ -24,11 +24,13 @@ const Navbar = () => {
                     <img
                         src={logo}
                         alt="logo"
-                        className="w-9 h-9 object-contain "
+                        className="w-9 h-9 object-contain  "
                     />
-                    <p className="text-white text-[18px] font-bold cursor-pointer">
-                        Hasan
-                        <span className="sm:block hidden">| Portfolio </span>
+                    <p className="text-white text-[18px] mt-1 font-bold cursor-pointer flex">
+                        Hasan Bashir &nbsp;
+                        <span className="sm:block hidden">
+                            | &nbsp; Portfolio
+                        </span>
                     </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
