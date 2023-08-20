@@ -8,7 +8,7 @@ const Computers = () => {
 
     return (
         <mesh>
-            <hemisphereLight intensity={4} />
+            <hemisphereLight intensity={5} />
             <pointLight intensity={1} />
             <spotLight
                 intensity={5}
