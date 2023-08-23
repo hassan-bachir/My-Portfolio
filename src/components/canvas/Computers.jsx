@@ -35,7 +35,11 @@ const ComputersCanvas = () => {
             setIsMobile(event.matches);
         };
         mediaQuery.addEventListener("change", handleMediaQueryChange);
-    });
+
+        return () => {
+            mediaQuery.removeEventListener("change", handleMediaQueryChange);
+        };
+    }, []);
     return (
         <Canvas
             frameloop="demand"
