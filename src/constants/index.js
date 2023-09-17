@@ -150,16 +150,15 @@ const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Freelance Web Developer",
+        company_name: "Freelance",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "January 2020 – January 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed websites for clients in the automotive industry using a variety of programming languages and technologies.",
+            "Worked with clients to gather requirements and create wireframes and prototypes.",
+            "Implemented websites that met the needs of the clients and exceeded their expectations.",
         ],
     },
 ];
