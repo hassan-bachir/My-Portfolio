@@ -129,16 +129,14 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Full-Stack Web Development Bootcamp",
+        company_name: "SE FACTORY",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "February 2023 - May 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed an intensive full-stack web development program covering cloud architecture, front-end and back-end development, source control, and web application security over 14 weeks of lectures, workshops, and projects.",
+            "Created a full-stack mobile app about an AI wallet-budget tracker that utilizes AI technology to help the users in their financial decisions.",
         ],
     },
     {
