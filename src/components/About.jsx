@@ -49,11 +49,12 @@ const About = () => {
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
                 I'm a full stack web developer with experience in JavaScript,
-                TypeScript, Python, Java, and PHP, and expertise in frameworks
-                like React, React Native, node.js, Express, Laravel , .NET ,
-                among other tools and frameworks that I've worked with like
-                electron.js, redux state management, Three.js , git and github,
-                postman etc. Let's work together to bring your ideas to life !
+                PHP, Python, Java, and TypeScript, and expertise in frameworks
+                like React, React Native,Next.js, node.js, Express, Laravel ,
+                .NET , among other tools and frameworks that I've worked with
+                like electron.js, redux state management, Three.js , git and
+                github, postman,Thunder Client, etc. Let's work together to
+                bring your ideas to life !
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10 ">
                 {services.map((service, index) => (
