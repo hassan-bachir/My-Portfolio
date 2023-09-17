@@ -122,10 +122,10 @@ const experiences = [
         iconBg: "#383E56",
         date: "March 2018 - February 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Programming Languages: PHP, Python, C#, VB.NET, Java, HTML, CSS, and JavaScript. These languages equipped me with a strong foundation in software development.",
+            "Database Management: MySQL,Additionally, I learned about Logical Data Models (LDM) and Conceptual Data Models (CDM).",
+            "Web Development: HTML, CSS, PHP, and JavaScript to deliver engaging user experiences.",
+            "Data Structures: Trees, graphs, linked lists, and binary trees, searching algorithms, which are essential for locating specific data efficiently within large datasets.",
         ],
     },
     {
