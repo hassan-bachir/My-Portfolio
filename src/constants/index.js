@@ -5,7 +5,6 @@ import {
     web,
     javascript,
     typescript,
-    html,
     css,
     reactjs,
     redux,
@@ -23,6 +22,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    next,
+    postman,
+    laravel,
 } from "../assets";
 
 export const navLinks = [
@@ -61,16 +63,16 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "Next.js",
+        icon: next,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "Postman",
+        icon: postman,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Laravel",
+        icon: laravel,
     },
     {
         name: "TypeScript",
@@ -113,7 +115,6 @@ const technologies = [
         icon: docker,
     },
 ];
-
 const experiences = [
     {
         title: "Bachelor of Management Information Systems",
@@ -136,6 +137,8 @@ const experiences = [
         date: "February 2023 - May 2023",
         points: [
             "Completed an intensive full-stack web development program covering cloud architecture, front-end and back-end development, source control, and web application security over 14 weeks of lectures, workshops, and projects.",
+            "Learned Many languages and frameworks including Laravel, react, react native, nodejs with express, and django",
+            "Acquired proficiency in using tools and libraries such as Postman, Redux and Redux Toolkit, Bootstrap, Git, Docker, and Figma.",
             "Created a full-stack mobile app about an AI wallet-budget tracker that utilizes AI technology to help the users in their financial decisions.",
         ],
     },
