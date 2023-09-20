@@ -195,46 +195,58 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "AI Wallii",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Mobile app that uses openAI language models in a financial wallet and budget tracker to Help users track and manage their finances with the help of AI.",
         tags: [
             {
-                name: "react",
+                name: "OpenAi",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "ReactNative",
+                color: "green-text-gradient",
+            },
+            {
+                name: "NodeJS",
+                color: "pink-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Redux",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/hassan-bachir/Wallii",
     },
     {
-        name: "Job IT",
+        name: "SharePrompts",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that enables users to create and save, search for, edit and delete AI prompts, this app uses google authentication, and the user can seach for all kind of usefull AI prompts",
         tags: [
             {
-                name: "react",
+                name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "GoogleAuth",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "MongoDB",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "green-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/hassan-bachir/share_prompts",
     },
     {
         name: "Trip Guide",
