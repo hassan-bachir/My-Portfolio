@@ -226,7 +226,7 @@ const projects = [
     {
         name: "SharePrompts",
         description:
-            "Web application that enables users to create and save, search for, edit and delete AI prompts, this app uses google authentication, and the user can seach for all kind of usefull AI prompts",
+            "Web application that enables users to create and save, search for, edit and delete AI prompts, this app uses google authentication, and the user can seach for all kind of usefull AI prompts.",
         tags: [
             {
                 name: "Next.js",
