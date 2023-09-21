@@ -25,6 +25,7 @@ import {
     next,
     postman,
     laravel,
+    rick,
 } from "../assets";
 
 export const navLinks = [
@@ -185,11 +186,11 @@ const testimonials = [
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "I don't usually waste my time with testimonials, but this one's an exception. His work is like a portal to creativity itself,a portfolio that stands out across the multiverse.  ",
+        name: "Rick Sanchez C-137",
+        designation: "Smartest man",
+        company: "the multiverse",
+        image: rick,
     },
 ];
 
@@ -249,25 +250,33 @@ const projects = [
         source_code_link: "https://github.com/hassan-bachir/share_prompts",
     },
     {
-        name: "Trip Guide",
+        name: "Beirut Diagnostics",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An e-commerce website that sells that sells auto keys, diagnostic tools, special tools and key programmers, plus it contains a market where other suppliers can display their merchendise too.",
         tags: [
             {
-                name: "nextjs",
+                name: "Nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Laravel",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "TailwindCSS",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Mongodb",
+                color: "green-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/hassan-bachir/Beirut-Auto",
     },
 ];
 

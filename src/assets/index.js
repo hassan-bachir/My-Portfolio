@@ -35,7 +35,11 @@ import next from "./tech/next.png";
 import postman from "./tech/postman.png";
 import laravel from "./tech/laravel.png";
 
+import rick from "./rick.jpg";
+import ali from "./Ali.jpg";
 export {
+    ali,
+    rick,
     laravel,
     postman,
     next,
