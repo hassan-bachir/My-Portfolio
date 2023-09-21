@@ -26,6 +26,7 @@ import {
     postman,
     laravel,
     rick,
+    ali,
 } from "../assets";
 
 export const navLinks = [
@@ -178,11 +179,12 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Mr. Hassan is an outstanding front-end developer. His ability to create visually captivating and user-friendly interfaces is impressive.Mr. Hassan is an invaluable asset to any project.",
+
+        name: "Ali Khodor",
+        designation: "Founder",
+        company: "SHO8OL.com",
+        image: ali,
     },
     {
         testimonial:
