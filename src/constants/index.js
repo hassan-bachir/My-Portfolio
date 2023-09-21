@@ -171,15 +171,15 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+            "Hassan is a back-end wizard with an unbeatable work ethic. His coding prowess powers projects effortlessly, and his dedication to excellence is unparalleled.",
+        name: "Bilal Fakih",
+        designation: "Software Engeneer",
+        company: "CME",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
         testimonial:
-            "Mr. Hassan is an outstanding front-end developer. His ability to create visually captivating and user-friendly interfaces is impressive.Mr. Hassan is an invaluable asset to any project.",
+            "Hassan is an outstanding front-end developer. His ability to create visually captivating and user-friendly interfaces is impressive. Hassan is an invaluable asset to any project.",
 
         name: "Ali Khodor",
         designation: "Founder",
