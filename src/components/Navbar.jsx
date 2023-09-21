@@ -27,7 +27,7 @@ const Navbar = () => {
                         className="w-9 h-9 object-contain  "
                     />
                     <p className="text-white text-[18px] mt-1 font-bold cursor-pointer flex">
-                        Hassan Bashir &nbsp;
+                        Hassan Bachir &nbsp;
                         <span className="sm:block hidden">
                             | &nbsp; Portfolio
                         </span>

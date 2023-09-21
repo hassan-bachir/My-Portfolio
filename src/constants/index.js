@@ -27,6 +27,7 @@ import {
     laravel,
     rick,
     ali,
+    bilal,
 } from "../assets";
 
 export const navLinks = [
@@ -175,7 +176,7 @@ const testimonials = [
         name: "Bilal Fakih",
         designation: "Software Engeneer",
         company: "CME",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        image: bilal,
     },
     {
         testimonial:
