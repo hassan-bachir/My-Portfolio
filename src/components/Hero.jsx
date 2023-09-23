@@ -27,7 +27,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="absolute w-full h-full flex justify-center items-center">
-                <div className="mr-56  sm:mb-56 sm:ml-72">
+                <div className="mr-56 mt-10  sm:mb-56 sm:ml-72">
                     <MainImage />
                 </div>
             </div>
