@@ -38,7 +38,9 @@ import laravel from "./tech/laravel.png";
 import rick from "./rick.jpg";
 import ali from "./Ali.jpg";
 import bilal from "./bilal.jpeg";
+import hassan from "./hassan.jpg";
 export {
+    hassan,
     bilal,
     ali,
     rick,
