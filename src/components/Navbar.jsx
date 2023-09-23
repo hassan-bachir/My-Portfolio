@@ -29,7 +29,7 @@ const Navbar = () => {
                     <p className="text-white text-[18px] mt-1 font-bold cursor-pointer flex">
                         Hassan Bachir &nbsp;
                         <span className="sm:block hidden">
-                            | &nbsp; Portfolio
+                            | &nbsp; Hassan.bachir001@gmail.com
                         </span>
                     </p>
                 </Link>
