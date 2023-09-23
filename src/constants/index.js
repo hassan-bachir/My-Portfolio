@@ -81,10 +81,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
+    // {
+    //     name: "React JS",
+    //     icon: reactjs,
+    // },
     {
         name: "Redux Toolkit",
         icon: redux,
