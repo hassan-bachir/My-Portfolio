@@ -5,7 +5,8 @@ import { ComputersCanvas, MainImage } from "./canvas";
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-screen mx-auto">
+        <section className="relative w-full h-screen mx-auto ">
+            {/* absolute */}
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
             >
@@ -25,11 +26,10 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            {/* <ComputersCanvas /> */}
-            <div
-                className={`absolute inset-0 top-[250px] right-600 max-w-7xl mx-auto `}
-            >
-                <MainImage />
+            <div className="absolute w-full h-full flex justify-center items-center">
+                <div className="mr-56  sm:mb-56 sm:ml-72">
+                    <MainImage />
+                </div>
             </div>
 
             <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
