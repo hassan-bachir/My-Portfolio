@@ -24,10 +24,16 @@ const Hero = () => {
                         I'm a Full stack web developer,
                         <br className="sm:block hidden" /> and I code for fun!
                     </p>
+                    <p className=" mb-3 text-secondary text-[17px]">
+                        Tel: +961 81 511560
+                    </p>
+                    <p className=" mb-3 text-secondary text-[17px]">
+                        Hassan.bachir001@gmail.com
+                    </p>
                 </div>
             </div>
             <div className="absolute w-full h-full flex justify-center items-center">
-                <div className="mr-56 mt-10  sm:mb-56 sm:ml-72">
+                <div className="mr-56   sm:mb-56 sm:ml-72">
                     <MainImage />
                 </div>
             </div>
