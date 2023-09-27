@@ -184,7 +184,7 @@ const testimonials = [
 
         name: "Ali Khodor",
         designation: "Founder",
-        company: "SHO8OL.com",
+        company: "shoghol.org",
         image: ali,
     },
     {
