@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, github } from "../assets";
+import { logo, menu, close, github, linkedin } from "../assets";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -58,6 +58,18 @@ const Navbar = () => {
                             />
                         </a>
                     </li>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/hassan-bachir-525351266/"
+                            target="_blank"
+                        >
+                            <img
+                                src={linkedin}
+                                alt="LinkedIn Icon"
+                                className="w-8 h-8 "
+                            />
+                        </a>
+                    </li>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img
@@ -87,7 +99,31 @@ const Navbar = () => {
                                 >
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
-                            ))}
+                            ))}{" "}
+                            <li>
+                                <a
+                                    href="https://github.com/hassan-bachir"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src={github}
+                                        alt="GitHub Icon"
+                                        className="w-8 h-8 "
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/hassan-bachir-525351266/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src={linkedin}
+                                        alt="LinkedIn Icon"
+                                        className="w-8 h-8 "
+                                    />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

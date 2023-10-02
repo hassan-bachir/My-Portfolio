@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas, MainImage } from "./canvas";
-import { github } from "../assets";
+import { github, linkedin } from "../assets";
 
 const Hero = () => {
     return (
@@ -25,6 +25,7 @@ const Hero = () => {
                         I'm a Full stack web developer,
                         <br className="sm:block hidden" /> and I code for fun!
                     </p>
+
                     <p className=" mb-3 text-secondary text-[17px]">
                         Tel: +961 81 511560
                     </p>

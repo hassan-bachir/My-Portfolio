@@ -34,12 +34,14 @@ import bootstrap from "./tech/bootstrap.png";
 import next from "./tech/next.png";
 import postman from "./tech/postman.png";
 import laravel from "./tech/laravel.png";
+import linkedin from "./tech/linkedin.png";
 
 import rick from "./rick.jpg";
 import ali from "./Ali.jpg";
 import bilal from "./bilal.jpeg";
 import hassan from "./hassan.jpg";
 export {
+    linkedin,
     hassan,
     bilal,
     ali,
