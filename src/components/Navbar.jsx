@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github } from "../assets";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -28,11 +28,10 @@ const Navbar = () => {
                     />
                     <p className="text-white text-[18px] mt-1 font-bold cursor-pointer flex">
                         Hassan Bachir &nbsp;
-                        <span className="sm:block hidden">
-                            | &nbsp; Hassan.bachir001@gmail.com
-                        </span>
+                        <span className="sm:block hidden">| </span>
                     </p>
                 </Link>
+
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((link) => (
                         <li
@@ -47,6 +46,18 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
+                    <li>
+                        <a
+                            href="https://github.com/hassan-bachir"
+                            target="_blank"
+                        >
+                            <img
+                                src={github}
+                                alt="GitHub Icon"
+                                className="w-8 h-8 "
+                            />
+                        </a>
+                    </li>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img

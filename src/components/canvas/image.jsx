@@ -7,7 +7,6 @@ const MainImage = () => {
         boxShadow:
             "0 -2vmin 4vmin LightPin inset, 0 -4vmin 4vmin MediumPurple inset, 0 -2vmin 7vmin purple inset",
         content: "",
-        // filter: "drop-shadow(0 0 3vmin Thistle) drop-shadow(0 5vmin 4vmin Orchid) drop-shadow(2vmin -2vmin 15vmin MediumSlateBlue) drop-shadow(0 0 7vmin MediumOrchid)",
         height: "50vmin",
         position: "absolute",
         width: "50vmin",
