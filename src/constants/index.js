@@ -150,9 +150,10 @@ const experiences = [
         company_name: "Bachir Auto Keys",
         icon: shopify,
         iconBg: "#383E56",
-        date: "January 2017 – September 2023",
+        date: "January 2017 – January 2023",
         points: [
             "Owned and managed automotive keys and services shop, overseeing all aspects of the business, including customer service, inventory, and team performance, resulting in increased revenue and profitability.",
+            "Furthermore, I successfully implemented streamlined operational processes and trained my team to such a degree that the business now operates efficiently and autonomously, no longer requiring my daily involvement.",
         ],
     },
     {
