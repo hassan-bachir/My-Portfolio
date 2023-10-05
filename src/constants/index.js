@@ -161,7 +161,7 @@ const experiences = [
         company_name: "Freelance",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "January 2020 – January 2023",
+        date: "January 2020 – Present",
         points: [
             "Developed websites for clients in the automotive industry using a variety of programming languages and technologies.",
             "Worked with clients to gather requirements and create wireframes and prototypes.",
