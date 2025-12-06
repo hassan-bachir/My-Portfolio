@@ -3,14 +3,10 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
-  css,
-  reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -93,10 +89,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+
   {
     name: "Three JS",
     icon: threejs,
