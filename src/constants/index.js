@@ -120,16 +120,17 @@ const technologies = [
 ];
 const experiences = [
   {
-    title: "Bachelor of Management Information Systems",
-    company_name: "Lebanese University",
+    title: "co-founder & CTO",
+    company_name: "Smart Gridz  ",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2018 - February 2023",
+    date: "January 2025 - Present",
     points: [
-      "Programming Languages: PHP, Python, C#, VB.NET, Java, HTML, CSS, and JavaScript. These languages equipped me with a strong foundation in software development.",
-      "Database Management: MySQL,Additionally, I learned about Logical Data Models (LDM) and Conceptual Data Models (CDM).",
-      "Web Development: HTML, CSS, PHP, and JavaScript to deliver engaging user experiences.",
-      "Data Structures: Trees, graphs, linked lists, and binary trees, searching algorithms, which are essential for locating specific data efficiently within large datasets.",
+      "Co-founded a clean-energy startup focused on enabling peer-to-peer energy sales for solar owners via a variable-rate platform.",
+      "Secured pre-seed funding and partnership with the United Nations Development Programme (UNDP).",
+      "Leading the development of the software platform for energy flow management, dynamic pricing, billing, and user transactions.",
+      "Developing the IoT integration model (Raspberry Pi/Arduino) to interface with solar systems for real-time energy metering and sales.",
+      " Share responsibility for technical business strategy, fundraising, and overall business operations with the co-founder (Bob, Mechanical/Renewable Energy Engineer).",
     ],
   },
   {
@@ -150,7 +151,7 @@ const experiences = [
     company_name: "Bachir Auto Keys",
     icon: shopify,
     iconBg: "#383E56",
-    date: "January 2017 – January 2023",
+    date: "January 2017 – September 2024",
     points: [
       "Owned and managed automotive keys and services shop, overseeing all aspects of the business, including customer service, inventory, and team performance, resulting in increased revenue and profitability.",
       "Furthermore, I successfully implemented streamlined operational processes and trained my team to such a degree that the business now operates efficiently and autonomously, no longer requiring my daily involvement.",
@@ -199,6 +200,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Beirut Diagnostics",
+    description:
+      "An e-commerce website that sells that sells auto keys, diagnostic tools, special tools and key programmers, plus it contains a market where other suppliers can display their merchendise too.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/hassan-bachir/Beirut-Auto",
+  },
   {
     name: "AI Wallii",
     description:
@@ -252,35 +282,6 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/hassan-bachir/share_prompts",
-  },
-  {
-    name: "Beirut Diagnostics",
-    description:
-      "An e-commerce website that sells that sells auto keys, diagnostic tools, special tools and key programmers, plus it contains a market where other suppliers can display their merchendise too.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Laravel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/hassan-bachir/Beirut-Auto",
   },
 ];
 
