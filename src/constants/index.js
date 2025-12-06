@@ -70,21 +70,17 @@ const technologies = [
     icon: next,
   },
   {
-    name: "Postman",
+    name: "Jest",
     icon: postman,
   },
   {
-    name: "Laravel",
+    name: "Redis",
     icon: laravel,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
-  // {
-  //     name: "React JS",
-  //     icon: reactjs,
-  // },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -97,10 +93,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -201,33 +197,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Beirut Diagnostics",
+    name: "CaseCanvas",
     description:
-      "An e-commerce website that sells that sells auto keys, diagnostic tools, special tools and key programmers, plus it contains a market where other suppliers can display their merchendise too.",
+      "A dedicated e-commerce platform that allows customers to fully personalize, preview, and order custom-printed cases for various tech accessories.",
     tags: [
       {
         name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Laravel",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "ShadcnUI",
         color: "pink-text-gradient",
       },
       {
-        name: "Redux",
+        name: "FramerMotion",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongodb",
+        name: "TanStackQuery",
         color: "green-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/hassan-bachir/Beirut-Auto",
+    source_code_link: "https://casecanvaslb.vercel.app/",
   },
   {
     name: "AI Wallii",
